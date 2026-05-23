@@ -1,4 +1,5 @@
-<img width="7036" height="1551" alt="TONES 로고 - 복사본" src="https://github.com/user-attachments/assets/3e6f0fd8-46ef-441b-9558-059377415e5b" />
+<img width="6858" height="1479" alt="TONES 로고 흰색" src="https://github.com/user-attachments/assets/835aa5ea-fb97-4a62-8d16-b86633b8349f" />
+
 
 
 # 💄 TONES 
