@@ -1,4 +1,6 @@
-# 💄 TONES
+<img width="7036" height="1551" alt="TONES 로고" src="https://github.com/user-attachments/assets/22d0e27d-d4c7-4daa-aea6-b6d523843d35" />
+
+# 💄 TONES 
 > **우연최연우** 팀과 함께하는 H&B 입점 뷰티 브랜드를 위한 AI 대화형 리뷰 관제 솔루션
 
 ## 📖 프로젝트 소개
@@ -8,8 +10,21 @@
 
 ---
 
-## 🎯 문제 정의 기존 H&B 입점 브랜드사의 리뷰 모니터링 방식은 다음과 같은 한계를 가집니다. | 기존 방식 | 한계 | | :--- | :--- | | 담당자가 리뷰를 직접 확인 | 수작업 시간이 과도하게 발생 | | 단순 키워드 검색 | 문맥과 양가감정 분석 불가 | | 엑셀 중심 정리 | 실시간 추이 파악 어려움 | | 부정 VOC 사후 대응 | 트러블·홍조·자극 이슈 조기 감지 어려움 | **TONES**는 리뷰 데이터를 정량화하고 시각화하여 브랜드 담당자가 제품 리스크를 더 빠르게 파악하고, 개선 의사결정을 내릴 수 있도록 돕습니다. ---
+## 🎯 문제 정의
 
+기존 H&B 입점 브랜드사의 리뷰 모니터링 방식은 대량의 비정형 리뷰 데이터를 사람이 직접 확인하거나, 단순 키워드 검색에 의존하는 구조가 대부분입니다. 이로 인해 부정 VOC를 빠르게 파악하기 어렵고, 제품 이슈에 대한 대응 시점이 늦어지는 문제가 발생합니다.
+
+| 기존 방식 | 한계 |
+| :--- | :--- |
+| 담당자가 리뷰를 직접 확인 | 수작업 시간이 과도하게 발생 |
+| 단순 키워드 검색 | 문맥 및 양가감정 분석 어려움 |
+| 엑셀 중심 데이터 관리 | 실시간 추이 파악 한계 |
+| 부정 VOC 사후 대응 | 트러블·홍조·자극 이슈 조기 감지 어려움 |
+
+**TONES**는 리뷰 데이터를 감성 분석 기반으로 정량화하고 시각화하여,  
+브랜드 담당자가 제품 리스크와 VOC 흐름을 보다 효율적으로 분석하고 의사결정에 활용할 수 있도록 지원합니다.
+
+---
 
 ## 🎥 배포 링크
 > https://frontend-eight-orcin-70.vercel.app/
@@ -56,7 +71,8 @@
 ---
 
 ## ⚙️ 전체 시스템 아키텍처
-> <img width="1280" height="665" alt="메인보드 사진" src="https://github.com/user-attachments/assets/8a815b47-a8aa-4d3e-9671-dfc3f32404db" />
+> <img width="1265" height="1753" alt="아키텍쳐" src="https://github.com/user-attachments/assets/f0801617-f993-484f-b53c-35214c20640e" />
+
 * **Frontend:** React, Next.js, Recharts
 * **Backend/DB:** Node.js, Supabase (PostgreSQL)
 * **AI/Data:** Google Vertex AI, Dialogflow CX, Python (Scraping Pipeline)
