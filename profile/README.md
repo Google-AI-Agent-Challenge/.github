@@ -1,43 +1,59 @@
-# 소개
+# 💄 TONES
+> **우연최연우** 팀과 함께하는 H&B 입점 뷰티 브랜드를 위한 AI 대화형 리뷰 관제 솔루션
 
-> **~~~**와 함께하는   
+## 📖 프로젝트 소개
+하루 수만 건씩 쏟아지는 고객 리뷰, 아직도 실무자가 수작업으로 읽고 계신가요?
+**TONES**는 대형 H&B 스토어 입점 브랜드사를 위한 **B2B 특화 리뷰 감성 분석 대시보드**입니다.
+Vertex AI 기반의 다중 속성 감성 분석(ABSA)과 Dialogflow 자연어 처리 기술을 결합하여, 실무자가 일상적인 대화(Query)만으로 원하는 제품의 리스크 추이를 즉각 시각화하고 엑셀 리포트로 추출할 수 있는 완벽한 관제 인프라를 제공합니다.
 
-{프로젝트 소개} 
+---
 
-# ~~~ 시연 영상
+## 🎥 시연 영상
+> [여기에 유튜브 시연 영상 링크를 삽입하세요]
 
-### 1. [첫 번째 기능]()
+---
+
+## ✨ 핵심 기능 (Key Features)
+
+### 1. 자연어 명령 기반 동적 대시보드 (Interactive AI UI)
 * **기능 소개**
-  > {서비스 내 첫 번째 기능 소개} 
-
+  > 구글 Dialogflow 인텐트 파싱 엔진을 연동하여, 사용자의 자연어 질의(예: "이번 달 당근 패드 트러블 부정 리뷰 추이 보여줘")를 정확히 인식합니다. 단순한 텍스트 답변을 넘어, 질의에 최적화된 통계 시각화 위젯(Recharts)을 대시보드 화면에 즉시 동적 렌더링합니다.
 * **UI 디자인**
-  > {서비스 내 첫 번째 기능 디자인}
+  > 좌측 챗봇 패널과 우측 데이터 분석 패널의 이원화 구조를 채택했습니다. 다크 모드(Dark Mode) 기반에 브랜드 컬러 포인트를 더한 시인성 높은 UI로 장시간 모니터링하는 실무자의 눈 피로도를 최소화하고 집중도를 높였습니다.
 
-### 2. [두 번째 기능]()
+### 2. 화장품 도메인 특화 다중 속성 감성 분석 (ABSA)
 * **기능 소개**
-  > {서비스 내 두 번째 기능 소개} 
-  
+  > 단순한 긍/부정 이분법을 넘어, Vertex AI를 활용해 리뷰 문맥 내의 '양가감정'을 정밀 타겟팅합니다. [성분/트러블], [제형/발림성], [용기/디자인] 등 뷰티 도메인에 특화된 다중 속성 스코어링 데이터를 도출하고, "전월 대비 82% 감소"와 같은 핵심 인사이트 브리핑 텍스트를 자동 생성합니다.
 * **UI 디자인**
-  > {서비스 내 두 번째 기능 디자인}
+  > 각 속성별 점수를 프로그레스 바(Progress Bar)로 직관적으로 표기하고, 원문 리뷰 내 주요 트러블 키워드(예: 붉은기, 따가움)를 태그형으로 강조하여 시각적 데이터 정합성을 확보했습니다.
 
-### 3. [세 번째 기능]()
+### 3. 실무 밀착형 데이터 파이프라인 & 엑셀 리포트 추출 (B2B Export)
 * **기능 소개**
-  > {서비스 내 세 번째 기능 소개} 
-
+  > 실제 커머스 트래픽 보안(에뮬레이팅 헤더 적용)을 통과한 순수 API 수집 데이터와 법적 컴플라이언스를 준수한 대량의 Mock 데이터를 결합하여 하이브리드 DB(Supabase) 아키텍처를 구축했습니다. AI 분석이 완료된 정형 데이터를 실무진이 2차 가공 및 보고용으로 즉시 쓸 수 있도록 클릭 한 번에 엑셀(XLSX) 리포트로 추출하는 기능을 완벽 지원합니다.
 * **UI 디자인**
-  > {서비스 내 세 번째 기능 디자인}
+  > 챗봇 버블 하단에 AI가 필터링한 데이터 건수와 정확히 동기화된 [원문 리뷰 O건 확인하기] 및 [엑셀 추출] 액션 버튼을 배치하여, 요약 확인 후 원문을 교차 검증(Cross-check)하는 실무 친화적 UX 플로우를 완성했습니다.
 
-# ~~~ 전체 서비스 UI
+---
 
+## 🖥 전체 서비스 UI
+> [여기에 전체 대시보드 메인 화면 캡처 이미지를 삽입하세요]
 
-# ~~~ 전체 시스템 아키텍쳐
+---
 
+## ⚙️ 전체 시스템 아키텍처
+> [여기에 시스템 아키텍처 다이어그램 이미지를 삽입하세요]
+* **Frontend:** React, Next.js, Recharts
+* **Backend/DB:** Node.js, Supabase (PostgreSQL)
+* **AI/Data:** Google Vertex AI, Dialogflow CX, Python (Scraping Pipeline)
 
-## Contributors
-|Name|Github|Role|
-|:---|:---|:---|
-|홍한희|[HHHv-v](https://github.com/HHHv-v)|QA, Front-End Engineer|
-|최연우|[pigmal24](https://github.com/pigmal24)|Front-End Engineer|
-|이채민|[Leechaemin12](https://github.com/Leechaemin12)|AI & Data Engineer|
-|김윤진|[taile9](https://github.com/taile9)|AI & Data Engineer|
-|허진수|[HJTN](https://github.com/HJTN)|PM, Back-End Engineer|
+---
+
+## 👥 Contributors
+
+| Name | Github | Role |
+| :--- | :--- | :--- |
+| **홍한희** | [HHHv-v](https://github.com/HHHv-v) | QA, Front-End Engineer (UI/UX 인터랙티브 컴포넌트 고도화, 엑셀 Export 파이프라인 및 정합성 검증) |
+| **최연우** | [pigmal24](https://github.com/pigmal24) | Front-End Engineer (대시보드 메인 레이아웃 및 챗봇 동적 UI 인터페이스 개발) |
+| **이채민** | [Leechaemin12](https://github.com/Leechaemin12) | AI & Data Engineer (Dialogflow 자연어 쿼리 인텐트 매핑 및 대화형 챗봇 엔진 설계) |
+| **김윤진** | [taile9](https://github.com/taile9) | AI & Data Engineer (모바일 타겟 비정형 데이터 수집 및 Vertex AI ABSA 모델 최적화) |
+| **허진수** | [HJTN](https://github.com/HJTN) | PM, Back-End Engineer (전체 아키텍처 설계, Supabase DB 연동 및 프로젝트 총괄 조율) |
