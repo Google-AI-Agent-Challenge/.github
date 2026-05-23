@@ -1,4 +1,5 @@
-<img width="6858" height="1479" alt="TONES 로고 흰색" src="https://github.com/user-attachments/assets/835aa5ea-fb97-4a62-8d16-b86633b8349f" />
+<img width="1875" height="1044" alt="image" src="https://github.com/user-attachments/assets/d1349acf-7acb-45b4-ac2f-06ef66e51f89" />
+
 
 
 
