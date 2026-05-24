@@ -86,7 +86,7 @@ B2B 특화 AI 리뷰 감성 분석 대시보드입니다.
 > <img width="1265" height="1753" alt="아키텍쳐" src="https://github.com/user-attachments/assets/f0801617-f993-484f-b53c-35214c20640e" />
 
 * **Frontend:** React, Next.js, Recharts
-* **Backend/DB:** Node.js, Supabase (PostgreSQL)
+* **Backend/DB:** FastAPI, Uvicorn, Supabase (PostgreSQL)
 * **AI/Data:** Google Vertex AI, Dialogflow CX, Python (Scraping Pipeline)
 
 ---
