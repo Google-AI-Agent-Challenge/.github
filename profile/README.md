@@ -42,11 +42,14 @@ B2B 특화 AI 리뷰 감성 분석 대시보드입니다.<br>
 
 ## 🎥 배포 링크
 
-| 구분 | URL |
-| :--- | :--- |
-| **프론트엔드** | https://tones-frontend-257637179317.us-central1.run.app |
-| **백엔드 (API)** | https://tones-server-257637179317.us-central1.run.app |
-| **API 문서 (Swagger)** | https://tones-server-257637179317.us-central1.run.app/docs |
+> 시연 영상 링크 참고 👇<br/>
+> [🖼️ 영상 링크](https://www.youtube.com/watch?v=aO5f0eTe1XI)
+
+| 구분 | URL | 비고 |
+| :--- | :--- | :---: |
+| **프론트엔드** | https://tones-frontend-257637179317.us-central1.run.app | 중단 |
+| **백엔드 (API)** | https://tones-server-257637179317.us-central1.run.app | 중단 |
+| **API 문서 (Swagger)** | https://tones-server-257637179317.us-central1.run.app/docs | 중단 |
 
 ---
 
